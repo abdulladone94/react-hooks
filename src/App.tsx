@@ -1,11 +1,8 @@
 import './App.css';
+import Reducer from './useReducer/Reducer';
 
 function App() {
-  return (
-    <>
-      <h1>React Hooks</h1>
-    </>
-  );
+  return <Reducer />;
 }
 
 export default App;
